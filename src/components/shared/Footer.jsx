@@ -84,10 +84,10 @@ export default function Footer() {
             >
               <RiPhoneLine size="3rem" />
               <a
-                href="tel:+2347042798946"
+                href="tel:+2349125660131"
                 className="border-b border-[color:var(--text-color)]/30 text-xl"
               >
-                +234 704 279 8946
+                +234 912 566 0131
               </a>
             </div>
             <div
@@ -96,12 +96,12 @@ export default function Footer() {
             >
               <RiWhatsappLine size="3rem" />
               <a
-                href="https://wa.me/2347042798946"
+                href="https://wa.me/2349125660131"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b border-[color:var(--text-color)]/30 text-xl"
               >
-                +234 704 279 8946
+                +234 912 566 0131
               </a>
             </div>
             <div
@@ -110,10 +110,10 @@ export default function Footer() {
             >
               <RiMailLine size="3rem" />
               <a
-                href="mailto:info@caritasinnilasanhotel.com"
+                href="mailto:info@caritasinnlekkihotel.com"
                 className="border-b border-[color:var(--text-color)]/30 text-xl"
               >
-                info@caritasinnilasanhotel.com
+                info@caritasinnlekkihotel.com
               </a>
             </div>
           </div>

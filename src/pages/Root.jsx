@@ -29,7 +29,7 @@ export default function RootLayout() {
   const [roomTypeId, setRoomTypeId] = useState(null);
   const [totalPayment, setTotalPayment] = useState(0);
   const [roomPrices, setRoomPrices] = useState({});
-  const [branchId] = useState(4); // Caritas Inn Ilasan branch ID
+  const [branchId] = useState(5); // Caritas Inn Lekki branch ID
   const [roomTypes, setRoomTypes] = useState([]);
   const [isLoadingRooms, setIsLoadingRooms] = useState(true);
 
@@ -197,12 +197,11 @@ export default function RootLayout() {
 
   // Get current page metadata
   const getPageMetadata = () => {
-    const baseUrl = "https://caritasinnilasan.fivecloverhotels.com";
+    const baseUrl = "https://caritasinnlekki.fivecloverhotels.com";
     const defaultMetadata = {
-      title:
-        "Caritas Inn Ilasan | Luxury Accommodation in Lekki Phase 2, Lagos",
+      title: "Caritas Inn Lekki | Luxury Accommodation in Lekki Phase 1, Lagos",
       description:
-        "Experience luxury and comfort at Caritas Inn Ilasan. Book your stay at our premium hotel in Lekki Phase 2, Lagos.",
+        "Experience luxury and comfort at Caritas Inn Lekki. Book your stay at our premium hotel in Lekki Phase 1, Lagos.",
       url: `${baseUrl}${location.pathname}`,
       type: "website",
       image: "/ring-ruby-logo.webp",
@@ -211,34 +210,34 @@ export default function RootLayout() {
     const pageMetadata = {
       "/": {
         title:
-          "Caritas Inn Ilasan | Luxury Accommodation in Lekki Phase 2, Lagos",
+          "Caritas Inn Lekki | Luxury Accommodation in Lekki Phase 1, Lagos",
         description:
-          "Experience luxury and comfort at Caritas Inn Ilasan. Book your stay at our premium hotel in Lekki Phase 2, Lagos.",
+          "Experience luxury and comfort at Caritas Inn Lekki. Book your stay at our premium hotel in Lekki Phase 1, Lagos.",
       },
       "/about": {
-        title: "About Us | Caritas Inn Ilasan",
+        title: "About Us | Caritas Inn Lekki",
         description:
-          "Discover the story behind Caritas Inn Ilasan and our commitment to providing exceptional hospitality in Lekki Phase 2, Lagos.",
+          "Discover the story behind Caritas Inn Lekki and our commitment to providing exceptional hospitality in Lekki Phase 1, Lagos.",
       },
       "/rooms": {
-        title: "Our Rooms | Caritas Inn Ilasan",
+        title: "Our Rooms | Caritas Inn Lekki",
         description:
-          "Explore our luxurious rooms at Caritas Inn Ilasan, designed for your comfort and relaxation.",
+          "Explore our luxurious rooms at Caritas Inn Lekki, designed for your comfort and relaxation.",
       },
       "/gallery": {
-        title: "Photo Gallery | Caritas Inn Ilasan",
+        title: "Photo Gallery | Caritas Inn Lekki",
         description:
-          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Caritas Inn Ilasan.",
+          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Caritas Inn Lekki.",
       },
       "/contact": {
-        title: "Contact Us | Caritas Inn Ilasan",
+        title: "Contact Us | Caritas Inn Lekki",
         description:
-          "Get in touch with Caritas Inn Ilasan. Our friendly staff is ready to assist with your booking and inquiries.",
+          "Get in touch with Caritas Inn Lekki. Our friendly staff is ready to assist with your booking and inquiries.",
       },
       "/booking": {
-        title: "Book Your Stay | Caritas Inn Ilasan",
+        title: "Book Your Stay | Caritas Inn Lekki",
         description:
-          "Book your luxurious stay at Caritas Inn Ilasan. Best rates guaranteed for our premium accommodations in Lekki Phase 2.",
+          "Book your luxurious stay at Caritas Inn Lekki. Best rates guaranteed for our premium accommodations in Lekki Phase 1.",
       },
     };
 
@@ -262,15 +261,16 @@ export default function RootLayout() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Hotel",
-            name: "Caritas Inn Ilasan",
+            name: "Caritas Inn Lekki",
             description:
-              "Experience luxury and comfort at Caritas Inn Ilasan. Book your stay at our premium hotel in Lekki Phase 2, Lagos.",
+              "Experience luxury and comfort at Caritas Inn Lekki. Book your stay at our premium hotel in Lekki Phase 1, Lagos.",
             image:
-              "https://caritasinnilasan.fivecloverhotels.com/caritas%20logo.webp",
-            url: "https://caritasinnilasan.fivecloverhotels.com",
+              "https://caritasinnlekki.fivecloverhotels.com/caritas%20logo.webp",
+            url: "https://caritasinnlekki.fivecloverhotels.com",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "2, Howard Edafe Street, Ilasan, Lekki Phase 2",
+              streetAddress:
+                "3, Ibiyinka Salvador Street, African Lane, Lekki Phase 1",
               addressLocality: "Lekki",
               addressRegion: "Lagos",
               postalCode: "100001",
@@ -278,8 +278,8 @@ export default function RootLayout() {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 6.431359668871449,
-              longitude: 3.5022371276345114,
+              latitude: 6.45687015487152,
+              longitude: 3.4718055085800708,
             },
             priceRange: "₦₦",
             starRating: {
@@ -287,8 +287,8 @@ export default function RootLayout() {
               ratingValue: "4.5",
               bestRating: "5",
             },
-            telephone: "+2347042798946",
-            email: "info@caritasinnilasanhotel.com",
+            telephone: "+2349125660131",
+            email: "info@caritasinnlekkihotel.com",
             sameAs: [
               "https://www.facebook.com/RingrubyHotel?_rdc=1&_rdr#",
               "https://www.instagram.com/ringruby_hotel/",

@@ -11,73 +11,73 @@ import beaches from "../../assets/hotel-surroundings/beaches.webp";
 
 const TOP_ATTRACTIONS = [
   {
-    title: "Elegushi Beach",
+    title: "Lekki Conservation Centre",
+    distance: "2 km",
+  },
+  {
+    title: "GET Arena (The Place)",
     distance: "3 km",
   },
   {
-    title: "Novare Mall Sangotedo",
+    title: "Oniru Beach",
     distance: "5 km",
   },
   {
-    title: "La Campagne Tropicana Beach Resort",
-    distance: "8 km",
+    title: "Nike Art Gallery",
+    distance: "4 km",
   },
   {
-    title: "Lakowe Lakes Golf Club",
+    title: "Lekki Leisure Lake",
     distance: "6 km",
-  },
-  {
-    title: "The Palms Shopping Mall",
-    distance: "10 km",
   },
 ];
 
 const SUPERMARKETS = [
   {
-    title: "Circle Mall",
+    title: "The Palms Shopping Mall",
     distance: "3 km",
   },
   {
-    title: "Novare Mall Sangotedo",
-    distance: "5 km",
-  },
-  {
-    title: "The Palms Shopping Mall",
-    distance: "10 km",
+    title: "GET Arena Mall",
+    distance: "3 km",
   },
   {
     title: "Ebeano Supermarket - Lekki",
-    distance: "8 km",
+    distance: "4 km",
+  },
+  {
+    title: "ShopRite - Lekki",
+    distance: "5 km",
   },
 ];
 
 const TRANSPORTATION = [
   {
     title: "Lekki-Epe Expressway",
-    distance: "2 km",
+    distance: "1 km",
   },
   {
-    title: "Ajah Bus Stop",
-    distance: "4 km",
+    title: "Admiralty Way",
+    distance: "3 km",
   },
   {
     title: "Murtala Muhammed Airport",
-    distance: "35 km",
+    distance: "30 km",
   },
 ];
 
 const BEACHES = [
   {
+    title: "Oniru Private Beach",
+    distance: "5 km",
+  },
+  {
     title: "Elegushi Private Beach",
-    distance: "3 km",
+    distance: "8 km",
   },
   {
-    title: "Oniru Beach",
-    distance: "12 km",
-  },
-  {
-    title: "Tarkwa Bay Beach",
-    distance: "20 km",
+    title: "Alpha Beach",
+    distance: "10 km",
   },
 ];
 

@@ -1,10 +1,10 @@
-# Caritas Inn Ilasan
+# Caritas Inn Lekki
 
-Caritas Inn Hotel Ilasan, Lekki Phase 2 frontend application.
+Caritas Inn Hotel Lekki, Lekki Phase 1 frontend application.
 
 ## Branch Information
 
-- **Branch ID**: 4
-- **Room Types**: Budget (10), Standard (11), Superior (12), Executive (13), Deluxe (14)
-- **Location**: 2, Howard Edafe Street, Ilasan, Lekki Phase 2, Lagos
-- **Website**: https://caritasinnilasan.fivecloverhotels.com
+- **Branch ID**: 5
+- **Room Types**: Classic (15), Deluxe (16), Ambassador Suite (17), Royal Suite (18), Executive (19)
+- **Location**: 3, Ibiyinka Salvador Street, African Lane, Lekki Phase 1, Lagos
+- **Website**: https://caritasinnlekki.fivecloverhotels.com

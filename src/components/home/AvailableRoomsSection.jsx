@@ -29,59 +29,82 @@ import { LuBath } from "react-icons/lu";
 import { TbAirConditioning, TbFridge } from "react-icons/tb";
 
 //Room images
-import budgetRoomImage from "../../assets/room-images/budget/budget.jpg";
-import budgetRoomImage2 from "../../assets/room-images/budget/budget-2.jpg";
-import standardRoomImage from "../../assets/room-images/standard/standard.jpg";
-import standardRoomImage2 from "../../assets/room-images/standard/standard-2.jpg";
-import superiorRoomImage from "../../assets/room-images/superior/superior.jpg";
-import superiorRoomImage2 from "../../assets/room-images/superior/superior-2.jpg";
-import executiveRoomImage from "../../assets/room-images/executive/executive.jpg";
-import executiveRoomImage2 from "../../assets/room-images/executive/executive-2.jpg";
+import classicRoomImage from "../../assets/room-images/classic/classic.jpg";
+import classicRoomImage2 from "../../assets/room-images/classic/classic-2.jpg";
+import classicRoomImage3 from "../../assets/room-images/classic/classic-3.jpg";
 import deluxeRoomImage from "../../assets/room-images/deluxe/deluxe.jpg";
 import deluxeRoomImage2 from "../../assets/room-images/deluxe/deluxe-2.jpg";
-import deluxeRoomImage3 from "../../assets/room-images/deluxe/deluxe-3.jpg";
+import ambassadorRoomImage from "../../assets/room-images/ambassador/ambassador.jpg";
+import ambassadorRoomImage2 from "../../assets/room-images/ambassador/ambassador-2.jpg";
+import ambassadorRoomImage3 from "../../assets/room-images/ambassador/ambassador-3.jpg";
+import ambassadorRoomImage4 from "../../assets/room-images/ambassador/ambassador-4.jpg";
+import royalRoomImage from "../../assets/room-images/royal/royal.jpg";
+import royalRoomImage2 from "../../assets/room-images/royal/royal-2.jpg";
+import royalRoomImage3 from "../../assets/room-images/royal/royal-3.jpg";
+import royalRoomImage4 from "../../assets/room-images/royal/royal-4.jpg";
+import executiveRoomImage from "../../assets/room-images/executive/executive.jpg";
+import executiveRoomImage2 from "../../assets/room-images/executive/executive-2.jpg";
+import executiveRoomImage3 from "../../assets/room-images/executive/executive-3.jpg";
 
-// budget room images
-const budgetRoomImages = [budgetRoomImage, budgetRoomImage2];
+// classic room images (3 images)
+const classicRoomImages = [
+  classicRoomImage,
+  classicRoomImage2,
+  classicRoomImage3,
+];
 
-// standard room images
-const standardRoomImages = [standardRoomImage, standardRoomImage2];
+// deluxe room images (2 images)
+const deluxeRoomImages = [deluxeRoomImage, deluxeRoomImage2];
 
-// superior room images
-const superiorRoomImages = [superiorRoomImage, superiorRoomImage2];
+// ambassador room images (4 images)
+const ambassadorRoomImages = [
+  ambassadorRoomImage,
+  ambassadorRoomImage2,
+  ambassadorRoomImage3,
+  ambassadorRoomImage4,
+];
 
-// executive room images
-const executiveRoomImages = [executiveRoomImage, executiveRoomImage2];
+// royal room images (4 images)
+const royalRoomImages = [
+  royalRoomImage,
+  royalRoomImage2,
+  royalRoomImage3,
+  royalRoomImage4,
+];
 
-// deluxe room images
-const deluxeRoomImages = [deluxeRoomImage, deluxeRoomImage2, deluxeRoomImage3];
+// executive room images (3 images)
+const executiveRoomImages = [
+  executiveRoomImage,
+  executiveRoomImage2,
+  executiveRoomImage3,
+];
 
 // Room type to gallery images mapping
 const roomGalleryImages = {
-  "Budget Suite": budgetRoomImages,
-  Budget: budgetRoomImages, // Fallback
-  "Standard Suite": standardRoomImages,
-  Standard: standardRoomImages, // Fallback
-  "Superior Suite": superiorRoomImages,
-  Superior: superiorRoomImages, // Fallback
-  "Executive Suite": executiveRoomImages,
-  Executive: executiveRoomImages, // Fallback
+  "Classic Suite": classicRoomImages,
+  Classic: classicRoomImages, // Fallback
   "Deluxe Suite": deluxeRoomImages,
   Deluxe: deluxeRoomImages, // Fallback
+  "Ambassador Suite": ambassadorRoomImages,
+  Ambassador: ambassadorRoomImages, // Fallback
+  "Royal Suite": royalRoomImages,
+  Royal: royalRoomImages, // Fallback
+  "Executive Suite": executiveRoomImages,
+  Executive: executiveRoomImages, // Fallback
 };
 
 // Room type to image mapping
 const roomTypeImages = {
-  "Budget Suite": budgetRoomImage,
-  Budget: budgetRoomImage, // Fallback
-  "Standard Suite": standardRoomImage,
-  Standard: standardRoomImage, // Fallback
-  "Superior Suite": superiorRoomImage,
-  Superior: superiorRoomImage, // Fallback
-  "Executive Suite": executiveRoomImage,
-  Executive: executiveRoomImage, // Fallback
+  "Classic Suite": classicRoomImage,
+  Classic: classicRoomImage, // Fallback
   "Deluxe Suite": deluxeRoomImage,
   Deluxe: deluxeRoomImage, // Fallback
+  "Ambassador Suite": ambassadorRoomImage,
+  Ambassador: ambassadorRoomImage, // Fallback
+  "Royal Suite": royalRoomImage,
+  Royal: royalRoomImage, // Fallback
+  "Executive Suite": executiveRoomImage,
+  Executive: executiveRoomImage, // Fallback
 };
 
 const useSharedContext = () => {

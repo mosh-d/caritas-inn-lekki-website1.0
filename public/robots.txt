@@ -1,4 +1,4 @@
-# Caritas Inn Ilasan - robots.txt
+# Caritas Inn Lekki - robots.txt
 User-agent: *
 Allow: /
 Disallow: /admin/
@@ -6,7 +6,7 @@ Disallow: /api/
 Disallow: /*?*
 
 # Sitemap location
-Sitemap: https://caritasinnilasan.fivecloverhotels.com/sitemap.xml
+Sitemap: https://caritasinnlekki.fivecloverhotels.com/sitemap.xml
 
 Crawl-delay: 10
 

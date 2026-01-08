@@ -2,11 +2,11 @@ export const generateHotelSchema = (hotelData = {}) => {
   const defaultData = {
     "@context": "https://schema.org",
     "@type": "Hotel",
-    name: "Caritas Inn Ilasan",
+    name: "Caritas Inn Lekki",
     description:
-      "Luxury hotel accommodation at Lekki Phase 2, Lagos. Experience comfort and excellent service at Caritas Inn Ilasan.",
-    url: "https://caritasinnilasan.fivecloverhotels.com",
-    logo: "https://caritasinnilasan.fivecloverhotels.com/caritas%20logo.webp",
+      "Luxury hotel accommodation at Lekki Phase 1, Lagos. Experience comfort and excellent service at Caritas Inn Lekki.",
+    url: "https://caritasinnlekki.fivecloverhotels.com",
+    logo: "https://caritasinnlekki.fivecloverhotels.com/caritas%20logo.webp",
     priceRange: "$$",
     starRating: {
       "@type": "Rating",
@@ -15,18 +15,18 @@ export const generateHotelSchema = (hotelData = {}) => {
     },
     address: {
       "@type": "PostalAddress",
-      streetAddress: "2, Howard Edafe Street, Ilasan, Lekki Phase 2",
+      streetAddress: "3, Ibiyinka Salvador Street, African Lane, Lekki Phase 1",
       addressLocality: "Lagos",
       postalCode: "100001",
       addressCountry: "NG",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "6.431359668871449",
-      longitude: "3.5022371276345114",
+      latitude: "6.45687015487152",
+      longitude: "3.4718055085800708",
     },
-    telephone: "+2347042798946",
-    email: "info@caritasinnilasanhotel.com",
+    telephone: "+2349125660131",
+    email: "info@caritasinnlekkihotel.com",
     sameAs: [
       "https://www.facebook.com/RingrubyHotel?_rdc=1&_rdr#",
       "https://www.instagram.com/ringruby_hotel/",
@@ -60,13 +60,13 @@ export const generateBreadcrumbSchema = (items = []) => {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://caritasinnilasan.fivecloverhotels.com",
+      item: "https://caritasinnlekki.fivecloverhotels.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Rooms",
-      item: "https://caritasinnilasan.fivecloverhotels.com/rooms",
+      item: "https://caritasinnlekki.fivecloverhotels.com/rooms",
     },
   ];
 

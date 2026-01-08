@@ -19,7 +19,7 @@ export default function ContactMainSection() {
       >
         <h1 className="text-6xl font-bold">Get In Touch</h1>
         <p className="text-2xl font-semibold">
-          Have any questions or need assistance? The team at Caritas Inn, Ilasan
+          Have any questions or need assistance? The team at Caritas Inn, Lekki
           is always ready to ensure your stay is flawless. Don't hesitate to
           reach out—we're here to help with anything you need.
         </p>
@@ -47,10 +47,10 @@ export default function ContactMainSection() {
           >
             <RiPhoneLine size="3rem" />
             <a
-              href="tel:+2347042798946"
+              href="tel:+2349125660131"
               className="border-b border-[color:var(--text-color)]/30 text-xl"
             >
-              +234 704 279 8946
+              +234 912 566 0131
             </a>
           </div>
           <div
@@ -59,10 +59,10 @@ export default function ContactMainSection() {
           >
             <RiMailLine size="3rem" />
             <a
-              href="mailto:info@caritasinnilasanhotel.com"
+              href="mailto:info@caritasinnlekkihotel.com"
               className="border-b border-[color:var(--text-color)]/30 text-xl"
             >
-              info@caritasinnilasanhotel.com
+              info@caritasinnlekkihotel.com
             </a>
           </div>
           <div

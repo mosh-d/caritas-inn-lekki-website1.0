@@ -7,11 +7,11 @@ import { IoRefresh } from "react-icons/io5";
 const API_BASE_URL = "https://five-clover-shared-backend.onrender.com";
 
 const ROOM_TYPE_MAP = {
-  budget: 10,
-  standard: 11,
-  superior: 12,
-  executive: 13,
-  deluxe: 14,
+  classic: 15,
+  deluxe: 16,
+  ambassador_suite: 17,
+  royal_suite: 18,
+  executive: 19,
 };
 
 export default function AdminOverviewPage() {
@@ -144,52 +144,16 @@ export default function AdminOverviewPage() {
           </div>
         </div>
         <menu className="flex gap-[4rem] text-xl text-[color:var(--emphasis)]">
-          {roomType === "budget" ? (
+          {roomType === "classic" ? (
             <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
-              BUDGET
+              CLASSIC
             </li>
           ) : (
             <li
               className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
-              onClick={() => setRoomType("budget")}
+              onClick={() => setRoomType("classic")}
             >
-              BUDGET
-            </li>
-          )}
-          {roomType === "standard" ? (
-            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
-              STANDARD
-            </li>
-          ) : (
-            <li
-              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
-              onClick={() => setRoomType("standard")}
-            >
-              STANDARD
-            </li>
-          )}
-          {roomType === "superior" ? (
-            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
-              SUPERIOR
-            </li>
-          ) : (
-            <li
-              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
-              onClick={() => setRoomType("superior")}
-            >
-              SUPERIOR
-            </li>
-          )}
-          {roomType === "executive" ? (
-            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
-              EXECUTIVE
-            </li>
-          ) : (
-            <li
-              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
-              onClick={() => setRoomType("executive")}
-            >
-              EXECUTIVE
+              CLASSIC
             </li>
           )}
           {roomType === "deluxe" ? (
@@ -202,6 +166,42 @@ export default function AdminOverviewPage() {
               onClick={() => setRoomType("deluxe")}
             >
               DELUXE
+            </li>
+          )}
+          {roomType === "ambassador_suite" ? (
+            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
+              AMBASSADOR
+            </li>
+          ) : (
+            <li
+              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
+              onClick={() => setRoomType("ambassador_suite")}
+            >
+              AMBASSADOR
+            </li>
+          )}
+          {roomType === "royal_suite" ? (
+            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
+              ROYAL
+            </li>
+          ) : (
+            <li
+              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
+              onClick={() => setRoomType("royal_suite")}
+            >
+              ROYAL
+            </li>
+          )}
+          {roomType === "executive" ? (
+            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
+              EXECUTIVE
+            </li>
+          ) : (
+            <li
+              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
+              onClick={() => setRoomType("executive")}
+            >
+              EXECUTIVE
             </li>
           )}
         </menu>

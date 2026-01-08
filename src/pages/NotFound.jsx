@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
       <SEO
-        title="Page Not Found | Caritas Inn Ilasan"
+        title="Page Not Found | Caritas Inn Lekki"
         description="The page you're looking for doesn't exist or has been moved."
         type="website"
       />
