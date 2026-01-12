@@ -155,6 +155,19 @@ export default function RootLayout() {
     fetchAvailableRooms(checkInDate, checkOutDate);
   }, []);
 
+  // Auto-fetch room availability every 60 seconds
+  useEffect(() => {
+    if (checkInDate && checkOutDate) {
+      fetchAvailableRooms(checkInDate, checkOutDate); // Initial fetch
+
+      const interval = setInterval(() => {
+        fetchAvailableRooms(checkInDate, checkOutDate); // Auto-refresh
+      }, 60000); // 60 seconds
+
+      return () => clearInterval(interval); // Cleanup
+    }
+  }, [checkInDate, checkOutDate, branchId]);
+
   // Update total payment when relevant state changes
   useEffect(() => {
     if (roomType && Object.keys(roomPrices).length > 0) {
