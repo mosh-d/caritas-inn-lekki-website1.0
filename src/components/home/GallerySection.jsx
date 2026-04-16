@@ -102,7 +102,7 @@ export default function GallerySection() {
     { src: MobileGallery20, alt: "Gallery 20" },
   ];
 
-  const galleryImages = isMobile ? mobileGalleryImages : desktopGalleryImages;
+  const galleryImages = desktopGalleryImages;
 
   const openModal = (index) => {
     setCurrentImageIndex(index);
