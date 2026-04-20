@@ -56,17 +56,19 @@ const GalleryModal = ({ isOpen, onClose, images, currentImageIndex = 0 }) => {
         <div className="w-full h-full flex flex-col items-center justify-center gap-[1rem]">
           {images.length > 1 && (
             <>
-              {/* Main image */}
-              <div data-component="image container" className="w-full max-w-[95vw]">
-                <img
-                  src={currentImage.src}
-                  alt={currentImage.alt}
-                  className="w-full aspect-[16/9] object-cover shadow-[0_0_10rem_1rem_rgba(0,0,0,.5)] border border-white/20"
-                />
-              </div>
+              {/* Flex container for image + navigation */}
+              <div className="w-full max-w-[95vw] lg:max-w-[70vw] flex flex-col gap-[1rem]">
+                {/* Main image */}
+                <div data-component="image container" className="w-full">
+                  <img
+                    src={currentImage.src}
+                    alt={currentImage.alt}
+                    className="w-full aspect-[16/9] object-cover shadow-[0_0_10rem_1rem_rgba(0,0,0,.5)] border border-white/20"
+                  />
+                </div>
 
-              {/* Navigation buttons container - below image */}
-              <div className="flex items-center justify-between w-full max-w-[95vw] bg-black/60 rounded-full px-4 py-2">
+                {/* Navigation buttons container - below image */}
+                <div className="flex items-center justify-between w-full bg-black/60 rounded-full px-4 py-2">
                 <button
                   onClick={goToPrevious}
                   className="rounded-full p-3 text-white transition-all duration-300 cursor-pointer hover:bg-white/20"
@@ -86,6 +88,7 @@ const GalleryModal = ({ isOpen, onClose, images, currentImageIndex = 0 }) => {
                 >
                   <FaChevronRight size="2rem" color="var(--white)" />
                 </button>
+              </div>
               </div>
             </>
           )}
