@@ -14,6 +14,7 @@ import { TbMoodHappy } from "react-icons/tb";
 import { PiBathtub, PiWashingMachineLight } from "react-icons/pi";
 import { FaUmbrellaBeach } from "react-icons/fa6";
 import { AiOutlineSafety } from "react-icons/ai";
+import { MdOutlinePool } from "react-icons/md";
 
 export default function FacilitiesSection() {
   const MOST_POPULAR_SERVICES = [
@@ -32,6 +33,10 @@ export default function FacilitiesSection() {
     {
       icon: TbSmokingNo,
       text: "Non-smoking rooms",
+    },
+    {
+      icon: MdOutlinePool,
+      text: "Pool",
     },
     {
       icon: MdOutlineLocalBar,
@@ -58,6 +63,7 @@ export default function FacilitiesSection() {
       services: [
         "Restaurants",
         "Bar",
+        "Pool",
         "Parking",
         "Air Conditioning",
         "Free WiFi",
