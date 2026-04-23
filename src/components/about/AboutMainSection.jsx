@@ -16,7 +16,7 @@ export default function AboutMainSection() {
             Seamless Comfort and Hospitality
           </h1>
           <p className="text-2xl">
-            Caritas Inn, Ilasan seamlessly blends modern comfort with the warmth
+            Caritas Inn, Lekki seamlessly blends modern comfort with the warmth
             of West African hospitality, offering a unique and inviting
             experience for our esteemed guests. Located in the serene and
             upscale Lekki Phase 2 area of Lagos, our hotel offers a balanced mix
