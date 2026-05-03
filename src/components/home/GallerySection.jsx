@@ -122,6 +122,9 @@ export default function GallerySection() {
     { src: MobileGallery20, alt: "Gallery 20" },
   ];
 
+  // Select appropriate gallery based on screen size
+  // const galleryImages = isMobile ? mobileGalleryImages : desktopGalleryImages;
+
   const galleryImages = desktopGalleryImages;
 
   const openModal = (index) => {
