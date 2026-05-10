@@ -30,23 +30,23 @@ import { TbAirConditioning, TbFridge } from "react-icons/tb";
 
 //Room images
 import classicRoomImage from "../../assets/room-images/classic/classic.jpg";
-import classicRoomImage2 from "../../assets/room-images/classic/classic-2.jpg";
+// import classicRoomImage2 from "../../assets/room-images/classic/classic-2.jpg";
 import classicRoomImage3 from "../../assets/room-images/classic/classic-3.jpg";
 import classicRoomImage4 from "../../assets/room-images/classic/classic-4.jpg";
 import deluxeRoomImage from "../../assets/room-images/deluxe/deluxe.jpg";
 import deluxeRoomImage2 from "../../assets/room-images/deluxe/deluxe-2.jpg";
 import deluxeRoomImage3 from "../../assets/room-images/deluxe/deluxe-3.jpg";
 import ambassadorRoomImage from "../../assets/room-images/ambassador/ambassador.jpg";
-import ambassadorRoomImage2 from "../../assets/room-images/ambassador/ambassador-2.jpg";
+// import ambassadorRoomImage2 from "../../assets/room-images/ambassador/ambassador-2.jpg";
 import ambassadorRoomImage3 from "../../assets/room-images/ambassador/ambassador-3.jpg";
 import ambassadorRoomImage4 from "../../assets/room-images/ambassador/ambassador-4.jpg";
 import royalRoomImage from "../../assets/room-images/royal/royal.jpg";
 import royalRoomImage2 from "../../assets/room-images/royal/royal-2.jpg";
 import royalRoomImage3 from "../../assets/room-images/royal/royal-3.jpg";
-import royalRoomImage4 from "../../assets/room-images/royal/royal-4.jpg";
+// import royalRoomImage4 from "../../assets/room-images/royal/royal-4.jpg";
 import royalRoomImage5 from "../../assets/room-images/royal/royal-5.jpg";
 import executiveRoomImage from "../../assets/room-images/executive/executive.jpg";
-import executiveRoomImage2 from "../../assets/room-images/executive/executive-2.jpg";
+// import executiveRoomImage2 from "../../assets/room-images/executive/executive-2.jpg";
 import executiveRoomImage3 from "../../assets/room-images/executive/executive-3.jpg";
 import executiveRoomImage4 from "../../assets/room-images/executive/executive-4.jpg";
 
@@ -71,7 +71,7 @@ import mobileExecutiveImage3 from "../../assets/mobile-room-images/executive/exe
 // classic room images (3 images)
 const classicRoomImages = [
   classicRoomImage,
-  classicRoomImage2,
+  // classicRoomImage2,
   classicRoomImage3,
   classicRoomImage4,
 ];
@@ -82,7 +82,7 @@ const deluxeRoomImages = [deluxeRoomImage, deluxeRoomImage2, deluxeRoomImage3];
 // ambassador room images (4 images)
 const ambassadorRoomImages = [
   ambassadorRoomImage,
-  ambassadorRoomImage2,
+  // ambassadorRoomImage2,
   ambassadorRoomImage3,
   ambassadorRoomImage4,
 ];
@@ -92,14 +92,14 @@ const royalRoomImages = [
   royalRoomImage,
   royalRoomImage2,
   royalRoomImage3,
-  royalRoomImage4,
+  // royalRoomImage4,
   royalRoomImage5,
 ];
 
 // executive room images (3 images)
 const executiveRoomImages = [
   executiveRoomImage,
-  executiveRoomImage2,
+  // executiveRoomImage2,
   executiveRoomImage3,
   executiveRoomImage4,
 ];
