@@ -19,8 +19,8 @@ const TOP_ATTRACTIONS = [
     distance: "3 km",
   },
   {
-    title: "Oniru Beach",
-    distance: "5 km",
+    title: "Lekki Phase 1 Waterfront",
+    distance: "4 km",
   },
   {
     title: "Nike Art Gallery",
@@ -34,8 +34,8 @@ const TOP_ATTRACTIONS = [
 
 const SUPERMARKETS = [
   {
-    title: "The Palms Shopping Mall",
-    distance: "3 km",
+    title: "ShopRite - Lekki Phase 1",
+    distance: "2 km",
   },
   {
     title: "GET Arena Mall",
@@ -46,8 +46,8 @@ const SUPERMARKETS = [
     distance: "4 km",
   },
   {
-    title: "ShopRite - Lekki",
-    distance: "5 km",
+    title: "Grand Towers Supermarket",
+    distance: "3 km",
   },
 ];
 
@@ -57,12 +57,12 @@ const TRANSPORTATION = [
     distance: "1 km",
   },
   {
-    title: "Admiralty Way",
+    title: "Admiralty Way, Lekki",
     distance: "3 km",
   },
   {
-    title: "Murtala Muhammed Airport",
-    distance: "30 km",
+    title: "Ikoyi Link Bridge",
+    distance: "8 km",
   },
 ];
 
@@ -76,8 +76,8 @@ const BEACHES = [
     distance: "8 km",
   },
   {
-    title: "Alpha Beach",
-    distance: "10 km",
+    title: "Landmark Beach",
+    distance: "12 km",
   },
 ];
 
