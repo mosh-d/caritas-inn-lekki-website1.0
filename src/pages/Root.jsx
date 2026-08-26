@@ -228,7 +228,7 @@ export default function RootLayout() {
 
   // Get current page metadata
   const getPageMetadata = () => {
-    const baseUrl = "https://caritasinnlekki.fivecloverhotels.com";
+    const baseUrl = "https://lekki.caritasinn.com";
     const defaultMetadata = {
       title: "Caritas Inn Lekki | Luxury Accommodation in Lekki Phase 1, Lagos",
       description:
@@ -236,6 +236,7 @@ export default function RootLayout() {
       url: `${baseUrl}${location.pathname}`,
       type: "website",
       image: "/ring-ruby-logo.webp",
+      robots: "index, follow",
     };
 
     const pageMetadata = {
@@ -250,25 +251,16 @@ export default function RootLayout() {
         description:
           "Discover the story behind Caritas Inn Lekki and our commitment to providing exceptional hospitality in Lekki Phase 1, Lagos.",
       },
-      "/rooms": {
-        title: "Our Rooms | Caritas Inn Lekki",
-        description:
-          "Explore our luxurious rooms at Caritas Inn Lekki, designed for your comfort and relaxation.",
-      },
-      "/gallery": {
-        title: "Photo Gallery | Caritas Inn Lekki",
-        description:
-          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Caritas Inn Lekki.",
-      },
       "/contact": {
         title: "Contact Us | Caritas Inn Lekki",
         description:
           "Get in touch with Caritas Inn Lekki. Our friendly staff is ready to assist with your booking and inquiries.",
       },
-      "/booking": {
-        title: "Book Your Stay | Caritas Inn Lekki",
+      "/booking-confirmation": {
+        title: "Booking Confirmation | Caritas Inn Lekki",
         description:
-          "Book your luxurious stay at Caritas Inn Lekki. Best rates guaranteed for our premium accommodations in Lekki Phase 1.",
+          "Your booking confirmation at Caritas Inn Lekki.",
+        robots: "noindex, follow",
       },
     };
 
@@ -288,6 +280,8 @@ export default function RootLayout() {
         <meta property="og:url" content={metadata.url} />
         <meta property="og:type" content={metadata.type} />
         <meta property="og:image" content={metadata.image} />
+        <meta name="robots" content={metadata.robots} />
+        <link rel="canonical" href={metadata.url} />
       </SafeHelmet>
       <SchemaMarkup branchId={branchId} />
       <header>{!isHome && <MainNavBar />}</header>

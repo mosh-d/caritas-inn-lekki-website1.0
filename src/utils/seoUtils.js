@@ -5,8 +5,8 @@ export const generateHotelSchema = (hotelData = {}) => {
     name: "Caritas Inn Lekki",
     description:
       "Luxury hotel accommodation at Lekki Phase 1, Lagos. Experience comfort and excellent service at Caritas Inn Lekki.",
-    url: "https://caritasinnlekki.fivecloverhotels.com",
-    logo: "https://caritasinnlekki.fivecloverhotels.com/caritas%20logo.webp",
+    url: "https://lekki.caritasinn.com",
+    logo: "https://lekki.caritasinn.com/caritas%20logo.webp",
     priceRange: "$$",
     starRating: {
       "@type": "Rating",
@@ -60,13 +60,13 @@ export const generateBreadcrumbSchema = (items = []) => {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://caritasinnlekki.fivecloverhotels.com",
+      item: "https://lekki.caritasinn.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Rooms",
-      item: "https://caritasinnlekki.fivecloverhotels.com/rooms",
+      item: "https://lekki.caritasinn.com/rooms",
     },
   ];
 
