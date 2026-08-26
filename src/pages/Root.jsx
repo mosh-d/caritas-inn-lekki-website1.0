@@ -232,7 +232,7 @@ export default function RootLayout() {
     const defaultMetadata = {
       title: "Caritas Inn Lekki | Luxury Accommodation in Lekki Phase 1, Lagos",
       description:
-        "Experience luxury and comfort at Caritas Inn Lekki. Book your stay at our premium hotel in Lekki Phase 1, Lagos.",
+        "Caritas Inn Lekki sits on Ibiyinka Salvador Street in Lekki Phase 1 - comfortable, secure accommodation close to the Lekki-Epe Expressway.",
       url: `${baseUrl}${location.pathname}`,
       type: "website",
       image: "/ring-ruby-logo.webp",
@@ -244,7 +244,7 @@ export default function RootLayout() {
         title:
           "Caritas Inn Lekki | Luxury Accommodation in Lekki Phase 1, Lagos",
         description:
-          "Experience luxury and comfort at Caritas Inn Lekki. Book your stay at our premium hotel in Lekki Phase 1, Lagos.",
+          "Caritas Inn Lekki sits on Ibiyinka Salvador Street in Lekki Phase 1 - comfortable, secure accommodation close to the Lekki-Epe Expressway.",
       },
       "/about": {
         title: "About Us | Caritas Inn Lekki",
@@ -262,6 +262,17 @@ export default function RootLayout() {
           "Your booking confirmation at Caritas Inn Lekki.",
         robots: "noindex, follow",
       },
+      "/privacy-policy": {
+        title: "Privacy Policy | Caritas Inn Lekki",
+        description:
+          "Read Caritas Inn Lekki's privacy policy to learn how we collect, use, and protect your personal information.",
+      },
+      "/terms-of-service": {
+        title: "Terms and Conditions | Caritas Inn Lekki",
+        description:
+          "Read the terms and conditions that apply to bookings and website use at Caritas Inn Lekki.",
+      },
+
     };
 
     return { ...defaultMetadata, ...(pageMetadata[location.pathname] || {}) };

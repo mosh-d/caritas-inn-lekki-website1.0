@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 const SEO = ({
   title = "Caritas Inn Lekki | Luxury Accommodation in Lekki Phase 1, Lagos",
-  description = "Experience luxury and comfort at Caritas Inn Lekki. Book your stay at our premium hotel in Lekki Phase 1, Lagos.",
+  description = "Caritas Inn Lekki sits on Ibiyinka Salvador Street in Lekki Phase 1 - comfortable, secure accommodation close to the Lekki-Epe Expressway.",
   keywords = "hotel, lagos, accommodation, caritas inn, lekki, lekki phase 1, african lane, luxury hotel, nigeria, business hotel, vacation",
   image = 'https://lekki.caritasinn.com/caritas-logo-2.webp',
   url = typeof window !== "undefined"
