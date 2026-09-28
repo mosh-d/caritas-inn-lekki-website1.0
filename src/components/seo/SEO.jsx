@@ -12,7 +12,6 @@ const SEO = ({
   noindex = false,
 }) => {
   const siteName = "Caritas Inn Lekki";
-  const siteUrl = "https://lekki.caritasinn.com";
   const twitterHandle = "@fivecloverhotel";
 
   return (
